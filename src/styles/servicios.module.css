@@ -1,0 +1,26 @@
+.contenedor{
+    height: 100vh;
+    width: 100%;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorcontenido{
+    height: 50%;
+    width: 50%;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorElementos{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedorElementos input{
+    width: 100%;
+}
