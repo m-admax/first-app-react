@@ -55,11 +55,9 @@ const table = () =>{//Sintaxis JS tradicional
             {
              Personas.map((item, index)=>{
                 return (<div key={index}>
-                    <Card 
-                    titulo={item.Nombre} 
-                    descripcion={item.Apellido} 
-                    icono={item.Email}
-                    ></Card>
+                    <tr>
+                        
+                    </tr>
                     </div>)
              })
             }
