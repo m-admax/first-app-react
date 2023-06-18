@@ -62,10 +62,10 @@ const table = () =>{//Sintaxis JS tradicional
                     <table className={styles.tableBorder}>
                        <thead>
                           <tr>
-                          <th>Nombre</th>
-                          <th>Apellido</th>
-                          <th>Telefono</th>
-                          <th>email</th>
+                          <th>NOMBRE</th>
+                          <th>APELLIDO</th>
+                          <th>TELEFONO</th>
+                          <th>EMAIL</th>
                           </tr>
                         </thead>
                         <tbody>
