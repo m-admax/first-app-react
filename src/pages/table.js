@@ -1,4 +1,3 @@
-import styles from "../styles/servicios.module.css"
 //BSON
 //JSON -> formato que se envia por http via internet
 //OBJETO ESTRUCTURA
@@ -53,34 +52,16 @@ const table = () =>{//Sintaxis JS tradicional
 
     return (//Sintaxis JSX componente para react
         <>
-        <div className={styles.containerTable}>
             {
              Personas.map((item, index)=>{
-                return (
-                <div key={index}>
-                    <div></div>
-                    <table className={styles.tableBorder}>
-                       <thead>
-                          <tr>
-                          <th>NOMBRE</th>
-                          <th>APELLIDO</th>
-                          <th>TELEFONO</th>
-                          <th>EMAIL</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>{item.Nombre}</td>
-                                <td>{item.Apellido}</td>
-                                <td>{item.Telefono}</td>
-                                <td>{item.Email}</td>
-                            </tr>
-                        </tbody> 
-                    </table>
-                </div>)
+                return (<div key={index}>
+                    <tr>
+                        
+                    </tr>
+                    </div>)
              })
             }
-        </div>
+
         </>
     )
 }

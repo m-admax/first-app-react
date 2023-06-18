@@ -21,19 +21,6 @@
     text-align: center;
 }
 
-.tableBorder{
-    border: solid black 1px;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    
-}
-.containerTable{
-    width: 100%;
-    height: 100vh;
-    
-}
-
 .contenedorElementos input{
     width: 100%;
 }
