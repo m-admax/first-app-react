@@ -36,7 +36,7 @@ const servicio = ()=>{//COMPONENTE
                     <h1>{login}</h1>
                     <input name="user" placeholder="Usuario" onChange={(e)=>setNameUser(e.target.value)}/>
                     <input name="password" placeholder="Contraseña" onChange={(e)=>setUserPassword(e.target.value)}/>
-                    <button type="submit">Enviar</button>
+                    <button type="submit">Login</button>
                     </form>
                    </div>
                </div>
