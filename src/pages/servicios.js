@@ -36,7 +36,7 @@ const servicio = ()=>{//COMPONENTE
                     <h1>{login}</h1>
                     <input name="user" placeholder="Usuario" onChange={(e)=>setNameUser(e.target.value)}/>
                     <input name="password" placeholder="Contraseña" onChange={(e)=>setUserPassword(e.target.value)}/>
-                    <button type="submit">Login</button>
+                    <button className={styles.button} type="submit">Login</button>
                     </form>
                    </div>
                </div>
@@ -46,3 +46,6 @@ const servicio = ()=>{//COMPONENTE
 }
 
 export default servicio
+
+/*email":"test@consul-sts.com",
+"password":"password"*/
